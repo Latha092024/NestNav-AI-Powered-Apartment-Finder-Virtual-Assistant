@@ -1,0 +1,42 @@
+# ==============================================================================
+# NestNav: AI-Powered Apartment Finder Virtual Assistant
+# Phase 1 Dependencies – Data Exploration & Initial Setup
+# ==============================================================================
+
+# ---- Data Processing & EDA ----
+pandas>=2.1.0
+numpy>=1.24.0
+
+# ---- Visualization ----
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# ---- Database (SQLite setup for tool queries) ----
+sqlalchemy>=2.0.0
+
+# ---- Notebook Support ----
+jupyter>=1.0.0
+ipywidgets>=8.1.0
+
+# ---- Core ML / LLM (for initial model testing) ----
+torch>=2.1.0
+transformers>=4.40.0
+accelerate>=0.27.0
+bitsandbytes>=0.43.0           # 4-bit quantization for Mistral-7B
+sentencepiece>=0.2.0
+
+# ---- Utilities ----
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+
+# ---- Kaggle Dataset Download ----
+kaggle>=1.6.0
+
+# ==============================================================================
+# Dependencies to be added in later phases:
+# - gradio (UI)
+# - geopy, folium (commute & maps)
+# - requests, beautifulsoup4, serpapi (web search tool)
+# - rouge-score, bert-score, nltk (evaluation)
+# - pytest (testing)
+# ==============================================================================

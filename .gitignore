@@ -1,0 +1,37 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# ---- Virtual Environment ----
+venv/
+env/
+.venv/
+
+# ---- Data (large files) ----
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.db
+data/processed/*.csv
+
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints/
+
+# ---- Environment Variables ----
+.env
+kaggle.json
+
+# ---- IDE ----
+.vscode/
+.idea/
+*.swp
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Model Weights ----
+*.bin
+*.safetensors
