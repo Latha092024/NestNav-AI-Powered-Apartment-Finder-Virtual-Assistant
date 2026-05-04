@@ -26,7 +26,7 @@ The project demonstrates **LLM tool-calling capabilities** by integrating databa
 - Finalized the project idea and submitted the project proposal
 - Selected two LLMs for comparison:
   - **Phi-3.5-mini-instruct** (3.8B params) – smaller model, FP16
-  - **Mistral-7B-Instruct-v0.3** (7B params) – larger model, 4-bit quantization
+  - **Qwen-14B (14B params) – larger model, 4-bit quantization
 - Downloaded the [USA Housing Listings (Craigslist) dataset from Kaggle](https://www.kaggle.com/datasets/austinreese/usa-housing-listings)
 - Created a Google Colab notebook for initial exploration
 - Performed initial data filtering and parsing to understand the dataset schema (columns include price, region, housing type, beds, baths, sqfeet, lat/long, pets, laundry, parking, description)
